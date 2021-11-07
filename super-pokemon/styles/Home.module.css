@@ -1,0 +1,46 @@
+.columns {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
+
+.columns .card {
+  padding: 15px;
+  position: relative;
+  border-radius: 20px;
+  height: 120px;
+  color: #fff;
+}
+
+.image {
+  position: absolute;
+  right: -15px;
+  bottom: 0;
+}
+
+.typeName {
+  margin: 0;
+}
+
+.typeName h3 {
+  font-size: 1.2 rem;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.types {
+  display: flex;
+  flex-direction: column;
+}
+
+.type {
+  margin: 0 0 3px 0;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  padding: 3px 10px;
+  align-self: flex-start;
+  line-height: 16px;
+  text-transform: capitalize;
+}
