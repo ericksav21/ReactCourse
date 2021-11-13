@@ -52,7 +52,7 @@ class Directory extends React.Component {
           <MenuItem key={id} {...otherSectionProps} />
         ))}
       </div>
-    );
+    )
   }
 }
 
